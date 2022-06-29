@@ -1,0 +1,21 @@
+@media print {
+   body {
+      width: 21cm;
+      height: 29.7cm;
+      margin-top: 5mm;
+      margin-bottom: 5mm;
+      margin-left: 5mm;
+      margin-right: 5mm !important;
+      /* change the margins as you want them to be. */
+   }
+}
+
+body {
+   width: 21cm;
+   height: 29.7cm;
+   margin-top: 5mm;
+   margin-bottom: 5mm;
+   margin-left: 5mm;
+   margin-right: 5mm;
+   /* change the margins as you want them to be. */
+}
