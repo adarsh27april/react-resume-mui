@@ -16,9 +16,14 @@ const Item = styled(Paper)(({ theme }) => ({
   // textAlign: 'center',
   color: theme.palette.text.secondary,
   height: '100%',
+  borderRadius: '13px',
+  boxShadow: 3,
 }));
 
 function App() {
+
+  const accentColor = "rgb(16, 17, 58)"
+
   return (
     <div className='resume'
       style={{
@@ -28,25 +33,18 @@ function App() {
       }}
     >
 
-      {/* <Grid container spacing={2}>
-        <Grid item xs={4}>
-          <Item>
-            Adarsh Kumar Singh
-          </Item>
-        </Grid>
-        <Grid item xs={8}>
-          <Item>
-            I’m a computer geek who also happens to be a CSE UG
-            student, I like to build cool projects which can solve
-            some real life problem.
-          </Item>
-        </Grid>
-      </Grid>
-      <br /> */}
       <Grid container spacing={2}>
         <Grid item xs={8}>
           <Grid item xs={12} >
-            <Item>
+            <Item
+              style={{
+                fontFamily: 'Roboto Serif',
+                fontStyle: 'italic',
+                fontSize: '14px',
+                marginTop: '10px',
+                color: accentColor
+              }}
+            >
               I’m a computer geek who also happens to be a CSE UG
               student, I like to build cool projects which can solve
               some real life problem.
@@ -55,31 +53,45 @@ function App() {
           <br />
           <Grid item xs={12} >
             <Item>
-              <Education />
-              <br />
-              <Internship />
-              <br />
-              <Project />
+              <Education accentColor={accentColor} />
             </Item>
           </Grid>
+
+          {/* <br /><br /> */}
+          <Grid item xs={12} style={{ marginTop: '5mm' }}>
+            <Item>
+              <Internship accentColor={accentColor} />
+            </Item>
+          </Grid>
+
+          <Grid item xs={12} style={{ marginTop: '5mm' }}>
+            <Item>
+              {/* <br /><br /> */}
+              <Project accentColor={accentColor} />
+            </Item>
+          </Grid>
+
         </Grid>
         <Grid item xs={4}>
           {/* <br /> */}
           <Grid item xs={12} >
-            <Item>
-              Adarsh Kumar Singh
+            <Item
+              style={{
+                backgroundColor: accentColor,
+              }}
+            >
+              <Contact accentColor={accentColor} />
+              {/* Name & Contact */}
             </Item>
           </Grid>
           <br />
           <Grid item xs={12} >
-            <Item>
-              <Contact />
-            </Item>
-          </Grid>
-          <br />
-          <Grid item xs={12} >
-            <Item>
-              <Skill />
+            <Item
+              style={{
+                backgroundColor: accentColor,
+              }}
+            >
+              <Skill accentColor={accentColor} />
             </Item>
           </Grid>
         </Grid>
