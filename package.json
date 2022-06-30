@@ -1,7 +1,7 @@
 {
   "name": "react-resume-mui",
   "version": "0.1.0",
-  "homepage":"https://adarsh27april.github.io/react-resume-mui",
+  "homepage": "https://adarsh27april.github.io/react-resume-mui",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -21,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
