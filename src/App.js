@@ -54,19 +54,17 @@ function App() {
           <Grid item xs={12} >
             <Item>
               <Education accentColor={accentColor} />
-            </Item>
+              {/* </Item>
           </Grid>
 
-          {/* <br /><br /> */}
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item>
+            <Item> */}
               <Internship accentColor={accentColor} />
-            </Item>
+              {/* </Item>
           </Grid>
 
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item>
-              {/* <br /><br /> */}
+            <Item> */}
               <Project accentColor={accentColor} />
             </Item>
           </Grid>
