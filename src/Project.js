@@ -47,7 +47,6 @@ export default function Project({ accentColor }) {
                marginBottom: '0',
                marginTop: '1mm',
             }}>
-
                A ReactJS web app which can search for a country by API
                calls, show some general details like it's flag, official name,
                capital, languages spoken, land cover.It has an interactive
