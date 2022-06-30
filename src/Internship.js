@@ -8,7 +8,8 @@ export default function Internship({ accentColor }) {
                color: accentColor,
                fontWeight: '700',
                fontSize: '18px',
-               marginBottom: '6mm'
+               marginBottom: '4mm',
+               // marginTop: '6mm',
             }}
          >
             I N T E R N S H I P
@@ -21,10 +22,11 @@ export default function Internship({ accentColor }) {
          >
             <b>Web Development Intern</b>
             <br />
-            <u>The Sparks Foundation</u>,<br />
+            <u>The Sparks Foundation</u>,
             <p style={{
                paddingLeft: '3mm',
                // marginBottom: ''
+               marginTop: '1mm',
             }}>
                May 2021 - Jun 2021<br />
                I worked as a Web Development Intern here and made a
@@ -32,13 +34,13 @@ export default function Internship({ accentColor }) {
                System the website also implements CRUD operations in
                NodeJS, I have also used MongoDB as Database.
             </p>
-            {/* <br /><br /> */}
 
             <b>Full Stack(MERN) Web Development Intern</b>,<br />
-            <u>WebKnot Technologies Private Limited</u>,<br />
+            <u>WebKnot Technologies Private Limited</u>,
             <p style={{
                paddingLeft: '3mm',
-               // marginBottom: ''
+               marginBottom: '0',
+               marginTop: '1mm',
             }}>
                April 2022 - Present<br />
             </p>

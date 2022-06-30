@@ -43,7 +43,7 @@ export default function Skill({ accentColor }) {
          <br />
          <div
             style={{
-               marginLeft: '4mm'
+               marginLeft: '2mm'
             }}
          >
             <span style={styleObj}>{skill[0]}</span>
@@ -74,7 +74,7 @@ export default function Skill({ accentColor }) {
          <br />
          <div
             style={{
-               marginLeft: '6mm'
+               marginLeft: '2mm'
             }}>
             <span style={styleObj}>VS Code</span>
             <span style={styleObj}>Git</span>

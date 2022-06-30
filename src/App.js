@@ -41,7 +41,8 @@ function App() {
                 fontFamily: 'Roboto Serif',
                 fontStyle: 'italic',
                 fontSize: '14px',
-                marginTop: '10px',
+                // marginTop: '10px',
+                paddingTop: '10px',
                 color: accentColor
               }}
             >
@@ -54,17 +55,17 @@ function App() {
           <Grid item xs={12} >
             <Item>
               <Education accentColor={accentColor} />
-              {/* </Item>
+            </Item>
           </Grid>
 
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item> */}
+            <Item>
               <Internship accentColor={accentColor} />
-              {/* </Item>
+            </Item>
           </Grid>
 
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item> */}
+            <Item>
               <Project accentColor={accentColor} />
             </Item>
           </Grid>

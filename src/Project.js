@@ -3,13 +3,13 @@ import React from 'react'
 export default function Project({ accentColor }) {
    return (
       <div>
-
          <div
             style={{
                color: accentColor,
                fontWeight: '700',
                fontSize: '18px',
-               marginBottom: '6mm'
+               marginBottom: '4mm',
+               // marginTop: '6mm',
             }}
          >
             P R O J E C T S
@@ -20,33 +20,34 @@ export default function Project({ accentColor }) {
                color: 'black'
             }}
          >
-            <b>E-Book Library</b><br />
+            <b>E-Book Library</b>
             <p style={{
                paddingLeft: '3mm',
                // marginBottom: ''
+               marginTop: '1mm',
             }}>
                It is an online e-Book Library from where users can issue and
                read the book of their choice, with a book issue time limit. So
                overall it will be a destination for book lovers and authors to
                publish their content without the fear of privacy.
             </p>
-            {/* <br /><br /> */}
-            <b>Blockchian based online voting system</b><br />
+            <b>Blockchian based online voting system</b>
             <p style={{
                paddingLeft: '3mm',
                // marginBottom: ''
+               marginTop: '1mm',
             }}>
                Project in Progress, building using tech stack
                Web3Js,ReactJS, Solidity, NodeJS, Truffle, deploying on
                rinkeby testnet.
             </p>
-            {/* <br /><br /> */}
-            <b>Country Detail React App</b><br />
+            <b>Country Detail React App </b>: https://country-detail-react.netlify.app/
             <p style={{
                paddingLeft: '3mm',
-               // marginBottom: ''
+               marginBottom: '0',
+               marginTop: '1mm',
             }}>
-               https://country-detail-react.netlify.app/
+
                A ReactJS web app which can search for a country by API
                calls, show some general details like it's flag, official name,
                capital, languages spoken, land cover.It has an interactive
