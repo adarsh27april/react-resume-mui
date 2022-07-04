@@ -10,11 +10,11 @@ import Project from './Project';
 import Skill from './Skill';
 import Contact from './Contact';
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   // textAlign: 'center',
-  color: theme.palette.text.secondary,
+  // color: theme.palette.text.secondary,
   height: '100%',
   borderRadius: '13px',
   boxShadow: 3,
@@ -45,6 +45,7 @@ function App() {
                 paddingTop: '10px',
                 color: accentColor
               }}
+              sx={{ boxShadow: 3, }}
             >
               I’m a computer geek who also happens to be a CSE UG
               student, I like to build cool projects which can solve
@@ -53,31 +54,38 @@ function App() {
           </Grid>
           <br />
           <Grid item xs={12} >
-            <Item>
+            <Item
+              sx={{ boxShadow: 3, }}
+            >
               <Education accentColor={accentColor} />
             </Item>
           </Grid>
 
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item>
+            <Item
+              sx={{ boxShadow: 3, }}
+            >
               <Internship accentColor={accentColor} />
             </Item>
           </Grid>
 
           <Grid item xs={12} style={{ marginTop: '5mm' }}>
-            <Item>
+            <Item
+              sx={{ boxShadow: 3, }}
+            >
               <Project accentColor={accentColor} />
             </Item>
           </Grid>
 
         </Grid>
         <Grid item xs={4}>
-          {/* <br /> */}
           <Grid item xs={12} >
             <Item
               style={{
                 backgroundColor: accentColor,
+                boxShadow: 3,
               }}
+              sx={{ boxShadow: 3, }}
             >
               <Contact accentColor={accentColor} />
               {/* Name & Contact */}
@@ -89,6 +97,7 @@ function App() {
               style={{
                 backgroundColor: accentColor,
               }}
+              sx={{ boxShadow: 3, }}
             >
               <Skill accentColor={accentColor} />
             </Item>
