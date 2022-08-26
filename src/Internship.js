@@ -42,7 +42,8 @@ export default function Internship({ accentColor }) {
                marginBottom: '0',
                marginTop: '1mm',
             }}>
-               April 2022 - July 2022<br />
+               April 2022 - July 2022
+               <br />
             </p>
          </div>
       </div>
